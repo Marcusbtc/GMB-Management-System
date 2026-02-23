@@ -110,7 +110,7 @@ Utility/debug scripts are in `/Users/marcus/Documents/Base/GBP  copy/tools`.
 
 ## Portuguese Documentation
 
-See `/Users/marcus/Documents/Base/GBP  copy/README-ptbr.md`.
+See [README-ptbr.md](README-ptbr.md).
 
 ## License
 
