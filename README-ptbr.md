@@ -176,16 +176,17 @@ pip install -r requirements.txt
 
 ### Credenciais
 
-Você pode configurar de três formas:
+Use `.env` como configuração padrão e recomendada (baseado no `.env.example`):
 
-1. Colocar `client_secret.json` na raiz do projeto
-2. Configurar `.streamlit/secrets.toml` com objeto OAuth `web`
-3. Definir variáveis de ambiente em `.env` (baseado no `.env.example`):
-   - `GOOGLE_CLIENT_ID`
-   - `GOOGLE_CLIENT_SECRET`
-   - `GOOGLE_REDIRECT_URI`
-   - `GOOGLE_AUTH_URI`
-   - `GOOGLE_TOKEN_URI`
+- `GOOGLE_CLIENT_ID`
+- `GOOGLE_CLIENT_SECRET`
+- `GOOGLE_REDIRECT_URI`
+- `GOOGLE_AUTH_URI`
+- `GOOGLE_TOKEN_URI`
+
+Suporte legado/opcional continua disponível para:
+- `client_secret.json` na raiz do projeto
+- `.streamlit/secrets.toml` com objeto OAuth `web`
 
 Escopo necessário:
 - `https://www.googleapis.com/auth/business.manage`
