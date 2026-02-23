@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+
+# Local secrets
+client_secret.json
+.streamlit/secrets.toml
+.claude/
+
+# macOS
+.DS_Store
