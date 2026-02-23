@@ -223,8 +223,8 @@ pytest
 python -m py_compile app.py auth.py data_fetcher.py drive_helper.py
 ```
 
-Scripts utilitários/debug ficam em `/Users/marcus/Documents/Base/GBP  copy/tools`.
+Scripts utilitários/debug ficam em `tools/`.
 
 ## Licença
 
-MIT (veja `/Users/marcus/Documents/Base/GBP  copy/LICENSE`).
+MIT (veja `LICENSE`).

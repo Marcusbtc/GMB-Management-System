@@ -106,7 +106,7 @@ pytest
 python -m py_compile app.py auth.py data_fetcher.py drive_helper.py
 ```
 
-Utility/debug scripts are in `/Users/marcus/Documents/Base/GBP  copy/tools`.
+Utility/debug scripts are in `tools/`.
 
 ## Portuguese Documentation
 
